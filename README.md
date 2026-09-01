@@ -2,15 +2,15 @@
 
 A project-based Python and SQL learning journey focused on space, aviation, engineering, data analysis and operational intelligence.
 
-## Mission
+## Current Focus
 
-I am building strong Python and SQL foundations to create data-driven tools for aerospace, aviation, space, engineering and operational intelligence.
+I am building strong Python and SQL foundations to create data-focused tools for aerospace, aviation, space, engineering and operational intelligence.
 
-This repository is not a collection of copied exercises. It is a documented learning journey: concepts, experiments, mistakes, mini-projects and real-world missions. Every exercise and mission is solved by me, using official documentation as the primary source. AI tools are used only to explain errors, clarify documentation or suggest ideas, never to generate solutions or code from scratch. See LEARNING_CONTRACT.md for the full rules.
+This repository is not a collection of copied exercises. It is a documented learning journey about concepts, experiments, mistakes, mini-projects and real-world missions. Every exercise and mission is solved by me, using official documentation as the primary source. AI tools are used only to explain errors, clarify documentation or suggest ideas, never to generate solutions or code from scratch. See LEARNING_CONTRACT.md for the full rules.
 
 ## Transferable skills
 
-Although this journey is thematically focused on space, aviation and engineering, the technical skills demonstrated here (data cleaning, ETL pipelines, SQL modelling, API design, testing and automation) are domain-agnostic and directly applicable to any data-driven sector: finance, logistics, healthcare, retail or e-commerce. The theme is the motivation; the engineering underneath is universal.
+Although this journey is thematically focused on space, aviation and engineering, the technical skills that I demostrate here (data cleaning, ETL pipelines, SQL modelling, API design, testing and automation) are domain-agnostic and directly applicable to any data-driven sector like finance, logistics, healthcare, retail or e-commerce. The theme is the motivation, but the engineering underneath is universal.
 
 ## Current status
 
