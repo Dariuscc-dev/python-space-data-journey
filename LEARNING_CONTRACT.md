@@ -2,14 +2,14 @@
 
 ## My objective
 
-I am learning Python and SQL to become capable of designing, debugging and building data-driven software independently, the old-fashioned way: by reading official documentation, experimenting, failing and fixing my own mistakes.
+I am learning Python and SQL to become capable of designing, debugging and building data-driven software independently, all of this by the old-fashioned way: reading official documentation, experimenting, failing and fixing my own mistakes.
 
 ## Rules
 
 1. I attempt every exercise and project alone before seeking help.
 2. I do not ask AI to generate complete solutions or project code.
 3. I do not paste AI-generated code into this repository.
-4. I use official documentation as my primary source (Python docs, PostgreSQL docs, library docs).
+4. I use official documentation as my primary source (Python docs, mySQL docs, library docs).
 5. I write down my failed attempts and what I learned from them in ERRORS_AND_LESSONS.md.
 6. I ask AI for hints, conceptual explanations or documentation pointers, not final implementations.
 7. When I solve a problem, I refactor it only after it already works.
