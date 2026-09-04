@@ -1,4 +1,4 @@
-# Data of Mission Countdown is being extracted from the following source: https://go4liftoff.com/
+# Data of Mission Countdown is being extracted from the following source: https://go4liftoff.com/ , tool of https://thespacedevs.com/llapi.
 
 from datetime import datetime
 import time
