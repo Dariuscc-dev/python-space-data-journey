@@ -1,0 +1,8 @@
+Mission Name: Long March 8A | Unknown Payload
+--------------------------------------------------
+Mission Description: The Long March 8A is a Chinese orbital launch vehicle developed by the China Academy of Launch Vehicle Technology (CALT). It is designed to carry payloads into low Earth orbit (LEO) and sun-synchronous orbit (SSO). The Long March 8A is part of the Long March family of rockets, which have been used for various space missions since the 1970s.
+--------------------------------------------------
+Mission Date: 2026-09-11 18:00:00 CEST
+--------------------------------------------------
+Countdown:
+Days Left: 6 | Hours Left: 145 | Minutes Left: 53 | Seconds Left: 36
