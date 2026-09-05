@@ -13,27 +13,22 @@ class MissionCountdown:
         self.MissionDate: int = datetime(2026, 9, 11, 18, tzinfo=zoneinfo.ZoneInfo("Europe/Madrid")).timestamp()  # September 11, 2026, at 18:00 CEST and its timestamp
 mission = MissionCountdown()
 
-mission_name = input("Enter the mission name, or press Enter to keep the default: ").strip()
+mission_name = input("Enter the mission name, press Enter to use the default mission's name: ")
 if mission_name:
     mission.MissionName = mission_name
 
-mission_description = input("Enter the mission description, or press Enter to keep the default  : ").strip()
+mission_description = input("Enter the mission description, press Enter to use the default mission's description: ")
 if mission_description:
     mission.MissionDescription = mission_description
 
-mission_date = input("Enter the mission date (YYYY-MM-DD HH:MM:SS, or press Enter to keep the default): ").strip()
-
+mission_date = input("Enter the mission date (Europe/Madrid) (YYYY-MM-DD HH:MM:SS), press Enter to use the default mission's date: ")
 if mission_date:
-    date_object = datetime.strptime(
-        mission_date,
-        "%Y-%m-%d %H:%M:%S"
-    )
+    try:
+        mission.MissionDate = datetime.strptime(mission_date, "%Y-%m-%d %H:%M:%S").replace(tzinfo=zoneinfo.ZoneInfo("Europe/Madrid")).timestamp()
 
-    date_object = date_object.replace(
-        tzinfo=zoneinfo.ZoneInfo("Europe/Madrid")
-    )
-
-    mission.MissionDate = int(date_object.timestamp())
+    except ValueError:
+        print("Invalid date format. Please use YYYY-MM-DD HH:MM:SS format.")
+        exit(1)
 
 print(f"Mission Name: {mission.MissionName}")
 print("-" * 50)
