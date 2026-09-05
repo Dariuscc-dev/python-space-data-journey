@@ -1,9 +1,11 @@
 # Data of Mission Countdown is being extracted from the following source: https://go4liftoff.com/ , tool of https://thespacedevs.com/llapi.
 
 from datetime import datetime
+from email.mime import text
 import time
 import zoneinfo
 from dataclasses import dataclass
+import saved_queries_to_txt
 
 @dataclass
 class MissionCountdown:
@@ -52,3 +54,16 @@ if TimeLeft <= 0:
 
 print("Countdown:")
 print(f"Days Left: {int(TimeLeft // 86400)} | Hours Left: {int(TimeLeft // 3600)} | Minutes Left: {int((TimeLeft % 3600) // 60)} | Seconds Left: {int(TimeLeft % 60)}")
+
+save_query_answer = input("Do you want to save the queries to a text file? (y/n): ")
+if save_query_answer.lower() == "y":
+    saved_queries_to_txt.save_query(
+        mission.MissionName,
+        mission.MissionDescription,
+        mission.MissionDate,
+        TimeLeft,
+    )
+    print("Queries saved to query-history.txt")
+if save_query_answer.lower() == "n":
+    print("Queries not saved.")
+exit(0)
