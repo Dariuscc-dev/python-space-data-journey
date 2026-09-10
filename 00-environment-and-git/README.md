@@ -44,10 +44,10 @@ A terminal tool that:
 
 ## What I learned
 
-- Instalar Python y verificar la versión desde la terminal (`python --version`).
-- Ejecutar scripts `.py` directamente desde la terminal en vez de depender del IDE.
-- Crear y activar entornos virtuales con `venv` para aislar dependencias por proyecto.
-- Instalar paquetes con `pip` y entender para qué sirve el `requirements.txt`.
-- Configurar un `.gitignore` para no subir archivos innecesarios al repositorio.
-- Usar Git desde la terminal: `init`, `add`, `commit`, `push`, `pull` y `log`.
-- Leer un traceback de Python para entender dónde y por qué falla el código.
+- How to install Python and check the version from the terminal.
+- How to run `.py` files from the terminal instead of relying only on an IDE.
+- How to create and activate virtual environments with `venv`.
+- How to install packages with `pip` and why dependency isolation matters.
+- How to use `.gitignore` to avoid uploading unnecessary files.
+- How to use basic Git commands like `init`, `add`, `commit`, `push`, `pull`, and `log`.
+- How to read a Python traceback to understand where an error comes from.
