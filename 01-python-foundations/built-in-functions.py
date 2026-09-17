@@ -76,35 +76,35 @@ enumerate() # It keeps track of both the item and its index position at the same
 eval() # It takes a string of text containing a Python expression and it dynamically runs it as real Python code.
 exec() # It behaves alike eval(), although it can run complex. multi-line Python code, which differs from eval().
 filter() # It filters out data from a list (iterable) that returns False from the function parsed inside filter().
-format() 
-frozenset() 
-getattr() 
-globals() 
-hasattr() 
-hash() 
-help() 
-hex() 
-id() 
-input() 
-int() 
-isinstance() 
-issubclass() 
-iter() 
-len() 
-list() 
-locals() 
-map() 
-max() 
-memoryview() 
-min() 
-next() 
-object() 
-oct() 
-open() 
-ord() 
-pow() 
-print() 
-property() 
+format() # Converts a value into a formatted string based on a specific set of styling rules.
+frozenset() # Creates an inmutable version of a standard set.
+getattr() # Function to acces the value of an object's attribute by introducing its name as a string.
+globals() # Returns a dictionary containing all global variables, functions and classes inside the current module.
+hasattr() # Function used to check if an object has an attribute or method.
+hash() # It takes and object as input and transformes it into hash (fixed-size integer representing its contents)
+help() # Instant official instructions and documentation.
+hex() # It converts an integer into its lowercase hexadecimal (base-16) string representation, prefixed with 0x.
+id() # Returns the unique ID integer of an object (it's like the location of that data in the memory of python).
+input() # Function that enables to ask and collect inputs from the user running the program.
+int() # Converts the content of the object (has to be a float or a numeric string) parsed into an integer.
+isinstance() # Enables you to check if an object belongs to a specific class or data type.
+issubclass() # It is used to check if the class parsed is a subclass (child) of another class.
+iter() # Helps you load an iterator and have the data available without fully loading it.
+len() # Enables you to see the lenght of the object parsed.
+list() # Enables you to build a list of objects
+locals() # Returns a dictionary containing all the local variables and functions defines in the current scope/python file.
+map() # Facilitates the work of locating and manipulating content inside a list without using for nor loops.
+max() # Returns the largest item in an iterable or from 2 or more arguments.
+memoryview() # Allows you to access and slice data through the internal binary buffer of an object and without making a copy of it.
+min() # Returns the smallest item in an iterable or the smallest of two or more arguments.
+next() # Used to extract the very next item from an iterator.
+object() # Returns a blank, featureless objet.
+oct() # Converts an integer into its octal (base-8) string representation.
+open() # It opens a file and returnns the corresponding file object.
+ord() # It converts a single character into its corresponding Unicode code point or ASCII integer value.
+pow() # Function used to perform exponentiation and can accept a third argument which corresponds for an optional modulus.
+print() # It prints the content inside the parenthesis.
+property() # Used when we want to validate and restrict the possibilities when 
 range() 
 repr() 
 reversed() 
