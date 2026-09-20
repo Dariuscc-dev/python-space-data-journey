@@ -3,25 +3,25 @@
 # According to the official Python documentation (https://docs.python.org/3/library/functions.html), we have lots of built-in functions.
 #Here're the most commonly used built-in functions in Python:
 
-print ("Hello Andromeda") # This is a function that prints any string, number, or variable to the console. In this case, it prints the string "Hello Andromeda".
+print("Hello Andromeda") # This is a function that prints any string, number, or variable to the console. In this case, it prints the string "Hello Andromeda".
 
-len ("Hello Andromeda") # This is a function that returns the length of any string, list, tuple, or dictionary. In this case, it returns the length of the string "Hello Andromeda".
-print (len ("Hello Andromeda")) # If we want to see the length of the string "Hello Andromeda", we can use the print function to print the result of the len function.
+len("Hello Andromeda") # This is a function that returns the length of any string, list, tuple, or dictionary. In this case, it returns the length of the string "Hello Andromeda".
+print(len ("Hello Andromeda")) # If we want to see the length of the string "Hello Andromeda", we can use the print function to print the result of the len function.
 
-type ("Hello Andromeda") # This is a function that returns the type of any variable, string, list, tuple, or dictionary. In this case, it returns the type of the string "Hello Andromeda".
-print (type ("Hello Andromeda")) # If we want to see the type of the string "Hello Andromeda", we can use the print function to print the result of the type function.
+type("Hello Andromeda") # This is a function that returns the type of any variable, string, list, tuple, or dictionary. In this case, it returns the type of the string "Hello Andromeda".
+print(type ("Hello Andromeda")) # If we want to see the type of the string "Hello Andromeda", we can use the print function to print the result of the type function.
 
-str (4) # This is a function that converts any variable, number, or string to a string. In this case, it converts the number 4 to a string.
-print (str (4)) # If we want to see the string representation of the number 4, we can use the print function to print the result of the str function.
-print (type(str (4))) # If we want to see the string representation of the number 4, we can use the print function to print the result of the str function, as well as the type function to see that it is indeed a string.
+str(4) # This is a function that converts any variable, number, or string to a string. In this case, it converts the number 4 to a string.
+print(str (4)) # If we want to see the string representation of the number 4, we can use the print function to print the result of the str function.
+print(type(str (4))) # If we want to see the string representation of the number 4, we can use the print function to print the result of the str function, as well as the type function to see that it is indeed a string.
 
-int (4.5) # This is a function that converts any variable, number, or string to an integer. In this case, it converts the float 4.5 to an integer rounding down to the nearest whole number, which is 4.
-print (int (4.5)) # If we want to see the integer representation of the float 4.5, we can use the print function to print the result of the int function.
-print (type(int (4.5))) # If we want to see the integer representation of the float 4.5, we can use the print function to print the result of the int function, as well as the type function to see that it is indeed an integer.
+int(4.5) # This is a function that converts any variable, number, or string to an integer. In this case, it converts the float 4.5 to an integer rounding down to the nearest whole number, which is 4.
+print(int (4.5)) # If we want to see the integer representation of the float 4.5, we can use the print function to print the result of the int function.
+print(type(int (4.5))) # If we want to see the integer representation of the float 4.5, we can use the print function to print the result of the int function, as well as the type function to see that it is indeed an integer.
 
-float (4) # This is a function that converts any variable, number, or string to a float. In this case, it converts the integer 4 to a float, which is 4.0.
-print (float (4)) # If we want to see the float representation of the integer 4, we can use the print function to print the result of the float function.
-print (type(float (4))) # If we want to see the float representation of the integer 4, we can use the print function to print the result of the float function, as well as the type function to see that it is indeed a float.
+float(4) # This is a function that converts any variable, number, or string to a float. In this case, it converts the integer 4 to a float, which is 4.0.
+print(float (4)) # If we want to see the float representation of the integer 4, we can use the print function to print the result of the float function.
+print(type(float (4))) # If we want to see the float representation of the integer 4, we can use the print function to print the result of the float function, as well as the type function to see that it is indeed a float.
 
 input("What galaxy are you from? = ") # This is a function that takes input from the user. In this case, it asks the user "What galaxy are you from?" and waits for the user to type their answer and press enter.
 # exit() #This is a function that exits the program, but it is explained through a comment because we do not want to exit the program, as we will develop more code afterwards. However, it is good practice to use the exit() function to explicitly exit the program when we are done with it.
@@ -35,21 +35,21 @@ help(str) # This function provides help and documentation for the str class in P
 dir() # This is a function that returns a list of the attributes and methods of any object, module, or class in Python. In this case, it returns a list of the attributes and methods of the built-in functions in Python.
 dir(str) # This function returns a list of the attributes and methods of the str class in Python.
 
-min (4, 5, 6, 7, 8) # This is a function that returns the smallest number from a list of numbers. In this case, it returns the smallest number from the list [4, 5, 6, 7, 8], which is 4.
-print (min (4, 5, 6, 7, 8)) # If we want to see the smallest number from the list [4, 5, 6, 7, 8], we can use the print function to print the result of the min function.
-max (4, 5, 6, 7, 8) # This is a function that returns the largest number from a list of numbers. In this case, it returns the largest number from the list [4, 5, 6, 7, 8], which is 8.
-print (max (4, 5, 6, 7, 8)) # If we want to see the largest number from the list [4, 5, 6, 7, 8], we can use the print function to print the result of the max function.
-sum (4, 5, 6, 7, 8) # This is a function that returns the sum of a list of numbers. In this case, it returns the sum of the list [4, 5, 6, 7, 8], which is 30.
-print (sum (4, 5, 6, 7, 8)) # If we want to see the sum of the list [4, 5, 6, 7, 8], we can use the print function to print the result of the sum function.
+min(4, 5, 6, 7, 8) # This is a function that returns the smallest number from a list of numbers. In this case, it returns the smallest number from the list [4, 5, 6, 7, 8], which is 4.
+print(min (4, 5, 6, 7, 8)) # If we want to see the smallest number from the list [4, 5, 6, 7, 8], we can use the print function to print the result of the min function.
+max(4, 5, 6, 7, 8) # This is a function that returns the largest number from a list of numbers. In this case, it returns the largest number from the list [4, 5, 6, 7, 8], which is 8.
+print(max (4, 5, 6, 7, 8)) # If we want to see the largest number from the list [4, 5, 6, 7, 8], we can use the print function to print the result of the max function.
+sum(4, 5, 6, 7, 8) # This is a function that returns the sum of a list of numbers. In this case, it returns the sum of the list [4, 5, 6, 7, 8], which is 30.
+print(sum (4, 5, 6, 7, 8)) # If we want to see the sum of the list [4, 5, 6, 7, 8], we can use the print function to print the result of the sum function.
 
 # We can also use the min and max functions with a list of numbers, instead of passing the numbers as separate arguments. For example, we can use the min function with a list of numbers like this:
 
-min ([4, 5, 6, 7, 8]) # This is a function that returns the smallest number from a list of numbers. In this case, it returns the smallest number from the list [4, 5, 6, 7, 8], which is 4.
-print (min ([4, 5, 6, 7, 8])) # If we want to see the smallest number from the list [4, 5, 6, 7, 8], we can use the print function to print the result of the min function.
-max ([4, 5, 6, 7, 8]) # This is a function that returns the largest number from a list of numbers. In this case, it returns the largest number from the list [4, 5, 6, 7, 8], which is 8.
-print (max ([4, 5, 6, 7, 8])) # If we want to see the largest number from the list [4, 5, 6, 7, 8], we can use the print function to print the result of the max function.
-sum ([4, 5, 6, 7, 8]) # This is a function that returns the sum of a list of numbers. In this case, it returns the sum of the list [4, 5, 6, 7, 8], which is 30.
-print (sum ([4, 5, 6, 7, 8])) # If we want to see the sum of the list [4, 5, 6, 7, 8], we can use the print function to print the result of the sum function.
+min([4, 5, 6, 7, 8]) # This is a function that returns the smallest number from a list of numbers. In this case, it returns the smallest number from the list [4, 5, 6, 7, 8], which is 4.
+print(min ([4, 5, 6, 7, 8])) # If we want to see the smallest number from the list [4, 5, 6, 7, 8], we can use the print function to print the result of the min function.
+max([4, 5, 6, 7, 8]) # This is a function that returns the largest number from a list of numbers. In this case, it returns the largest number from the list [4, 5, 6, 7, 8], which is 8.
+print(max ([4, 5, 6, 7, 8])) # If we want to see the largest number from the list [4, 5, 6, 7, 8], we can use the print function to print the result of the max function.
+sum([4, 5, 6, 7, 8]) # This is a function that returns the sum of a list of numbers. In this case, it returns the sum of the list [4, 5, 6, 7, 8], which is 30.
+print(sum ([4, 5, 6, 7, 8])) # If we want to see the sum of the list [4, 5, 6, 7, 8], we can use the print function to print the result of the sum function.
 # exit (0) #This is a function that exits the program with a status code of 0, which indicates that the program has exited successfully. We can use the exit() function to explicitly exit the program when we are done with it.
 
 # Here are more built-in functions in Python that we can use, actually, I will list all of them:
@@ -57,7 +57,7 @@ print (sum ([4, 5, 6, 7, 8])) # If we want to see the sum of the list [4, 5, 6, 
 abs() # Returns the absolute value of a number.
 all() # Function that returns true if every element in an iterable object is truthy.
 any() # Function that returns true if at least one element in an iterable object is truthy.
-asci() # Replaces any non-ASCII characters.
+ascii() # Replaces any non-ASCII characters.
 bin() # Converts an integer into its binary representation (base-2) as a string precedeb by "0b".
 bool() # Converts any value into a boolean value.
 breakpoint() # It drops you directly into an interactive debugging session right in your terminal.
@@ -105,20 +105,23 @@ ord() # It converts a single character into its corresponding Unicode code point
 pow() # Function used to perform exponentiation and can accept a third argument which corresponds for an optional modulus.
 print() # It prints the content inside the parenthesis.
 property() # Used when we want to validate and restrict the possibilities when 
-range() 
-repr() 
-reversed() 
-round() 
-set() 
-setattr() 
-slice() 
-sorted() 
-staticmethod() 
-str() 
-sum() 
-super() 
-tuple() 
-type() 
-vars() 
-zip() 
-__import__() 
+range() # It generates a sequence of integers and is usually used to control how many times a "for" loop runs.
+repr() # It is the str() that developers use, it converts the object into a string and shows it in the exact form it is introduced, as it also show explicit internal quotes.
+reversed() # It reverses a list/iterator without making a copy of the content, nor altering its content.
+round() # It returns a float/integer rounded to the amount of decimals specified, if not parsed a number of decimals, it rounds the object to the nearest whole number.
+set() # It helps you create a set of saved unique items, although unordered and impossible to select individually through index numbers.
+setattr() # It enables you to change or even create a brand new attribute of an item.
+slice() # It creates a "slicing template" and enables you to have it saved as a variable to use it when and how you want.
+sorted() # It sorts an iterable.
+staticmethod() # It enables you to create an independent method inside a class, it doesn´t use "self".
+str() # It converts the parsed object into a string.
+sum() # It sums the arguments parsed.
+super() # It allows you to call and use methods of a parent class in a son class, saving time and lines of code.
+tuple() # It enbales you to create an immutable iterable.
+type() # Allows you to see the parsed object's data type.
+vars() # Enables you to see the atributes of an object as a dictionary.
+zip() # Allows you to merge as a dictionary two or more iterables, it merges them as a tuple. It stops when the shorters iterable ends.
+__import__() # The native built-in function that runs in the backend every time we use "import".
+float() # Allows you to transform a whole number into a decimal/float number.
+anext() # It asks and returns the next object of an iterable in an asynchronous way.
+aiter() # Like anext, it enables you to go through an iterator without blocking the main thread.
